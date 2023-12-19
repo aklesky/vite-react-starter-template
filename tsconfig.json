@@ -1,0 +1,5 @@
+{
+    "extends": "@aklesky/ts-config/node/18/vite.json",
+    "include": ["src"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
