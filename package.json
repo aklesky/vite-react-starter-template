@@ -11,16 +11,16 @@
     "preview": "vite preview --outDir ../dist"
   },
   "devDependencies": {
-    "@aklesky/eslint-config": "0.7.14",
-    "@aklesky/jest-config": "0.7.14",
-    "@aklesky/postcss-config": "0.7.14",
-    "@aklesky/prettier-config": "0.7.14",
-    "@aklesky/tailwind-config": "0.7.14",
-    "@aklesky/ts-config": "0.7.14",
-    "@aklesky/vite-config": "0.7.14",
+    "@aklesky/eslint-config": "0.8.0",
+    "@aklesky/jest-config": "0.8.0",
+    "@aklesky/postcss-config": "0.8.0",
+    "@aklesky/prettier-config": "0.8.0",
+    "@aklesky/tailwind-config": "0.8.0",
+    "@aklesky/ts-config": "0.8.0",
+    "@aklesky/vite-config": "0.8.0",
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "@aklesky/react-presets": "0.7.14"
+    "@aklesky/react-presets": "0.8.0"
   }
 }
