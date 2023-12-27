@@ -7,12 +7,12 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@aklesky/eslint-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/eslint-config/-/eslint-config-0.7.14.tgz#6b3e881584c69e57c6dd3f27e3250c2fadd0199b"
-  integrity sha512-QFhq8L24wyDj6ZdTH8uqEDaqdpwfEsiA92wyuwnIct3+qaRIXxaOq3RhZRfYIdPPj1SC7zysbcr0l+Jo1mReuQ==
+"@aklesky/eslint-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/eslint-config/-/eslint-config-0.8.0.tgz#f18fcb30429d72721edbab52db12adbabc876f31"
+  integrity sha512-OaDbtDm8gEBS4cqqsc2Cf3ySG9JU4w++IQjjofqN7qYApoiIxOUKNNyJSo4pMwHTy3+nIXaUoOfdSqAwFnN3ug==
   dependencies:
-    "@aklesky/prettier-config" "0.7.14"
+    "@aklesky/prettier-config" "0.8.0"
     "@types/eslint" "8.44.9"
     "@typescript-eslint/eslint-plugin" "6.14.0"
     "@typescript-eslint/parser" "6.14.0"
@@ -24,19 +24,19 @@
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-react-refresh "0.4.5"
 
-"@aklesky/jest-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/jest-config/-/jest-config-0.7.14.tgz#ecf6e28913604c35b73f5eb929d6a84bf6b70e5c"
-  integrity sha512-V0xjWx2hDDqd9u7miOfqiICXj7sS//ercHWnYH6AdN3G06TP5GVStpsAUgY/t45AnhFeM+2vHHJpzkIbqde53Q==
+"@aklesky/jest-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/jest-config/-/jest-config-0.8.0.tgz#ba87ac1c6a3c7028927378c364de8cff86119d4e"
+  integrity sha512-gbrNjoyXWW2TowCyKjWQigrRajX1Uli91RevAplQFK3dAqjhPqb8h4Yo2OMKEbRicAkPWglE6bZvY8kEE2LH6g==
   dependencies:
     "@swc/jest" "0.2.29"
     "@types/jest" "29.5.11"
     jest "29.7.0"
 
-"@aklesky/postcss-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/postcss-config/-/postcss-config-0.7.14.tgz#5efc35102cf63f2ba5df5a87fe7fe73bbece84d1"
-  integrity sha512-fviNyIf1foXa7va05avngCHEIgD+t6svX3VIGV3q5DtyqQEAKA5oMbowRcdOzXqs7CWZooRFb03SyCCz4pXe/w==
+"@aklesky/postcss-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/postcss-config/-/postcss-config-0.8.0.tgz#8a8154f5528f84a5cb7ec10cd1c855073b6faee7"
+  integrity sha512-zG2qO0xsGbod832NlOagxbu3ouq7M2Al6hycKtISwi8jHfTChdvtxTXaqMjBiJs4qvABgiWhpZuoc/KHZY2DQQ==
   dependencies:
     autoprefixer "10.4.16"
     cssnano "6.0.2"
@@ -44,31 +44,31 @@
     postcss-load-config "5.0.2"
     postcss-nesting "12.0.1"
 
-"@aklesky/prettier-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/prettier-config/-/prettier-config-0.7.14.tgz#3616dd1b6453ba113f5457fe38e40081fd1f9cce"
-  integrity sha512-q9Lv70YjhE1VGcKnGs/pe+3/tkUfH7ApOs3eK9I9jWj8+5IvdwvFiu3xRW4x0pJkk4Vx5Fod/r11DA9YEfXUWQ==
+"@aklesky/prettier-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/prettier-config/-/prettier-config-0.8.0.tgz#ca3b88da815bf5375691a71d74dd35f23a39fb7e"
+  integrity sha512-vME4bkjfP/0t1ZfI4d42TSChRm2PtGTrwB7OJ0MNBI8/9TGD3hkmM3MVZxjdIaM1JQyVT807jiBiEzELTmwwwA==
   dependencies:
     "@types/prettier" "2.7.3"
     prettier "3.1.1"
 
-"@aklesky/react-presets@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.7.14.tgz#103a7f595979253e1700bb3781e500d8d4e1b40d"
-  integrity sha512-DbUNqMeYoKUK+BXkxNK+hSRUt06XBX89w0RyRxb2frUcG/pvQlTWvIOgV9ApahpeH3Kg89YaSdBDqMCzYsRkNA==
+"@aklesky/react-presets@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.8.0.tgz#57d83074fa9d02fedcf89f61e032bba21ee3d7cb"
+  integrity sha512-GPO/qbb2sICP95hns/T9OuzuRhmat5qoFO2aLpW9UXy7REoVaXF2Fh+65N5sP/TnmQXF4jRK2pWYqz5Jq/RsYw==
   dependencies:
-    "@aklesky/jest-config" "0.7.14"
-    "@aklesky/utilities" "0.7.14"
+    "@aklesky/jest-config" "0.8.0"
+    "@aklesky/utilities" "0.8.0"
     "@types/react" "18.2.43"
     "@types/react-dom" "18.2.17"
     "@vitejs/plugin-react-swc" "3.5.0"
     react "18.2.0"
     react-dom "18.2.0"
 
-"@aklesky/tailwind-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.7.14.tgz#d73267279dbb27ce23c745ed886e15fbac2ac3d1"
-  integrity sha512-3rmpvFyrgzHEGOjsv36Jx+KvqhhaZr3wSWRYccf4XQPUUkrWZWJCR4bJGBXoFHvfTWxwIYxOqXerBNMikaJ9+Q==
+"@aklesky/tailwind-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.8.0.tgz#e06a4a774d90bdb5643b780ea7029a831e54dcf2"
+  integrity sha512-F/507fhyn1Gob+vNt+3QtFxCd82odZxiaEdCMXNbIWPqg56keARLLVA+xS3JEKNmpzRc9gVFOM0G30jfHV/v6A==
   dependencies:
     "@tailwindcss/aspect-ratio" "0.4.2"
     "@tailwindcss/forms" "0.5.7"
@@ -76,25 +76,25 @@
     "@tailwindcss/typography" "0.5.10"
     tailwindcss "3.3.6"
 
-"@aklesky/ts-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.7.14.tgz#096e0d382ac130d5fd94e4b761416649e08ec7da"
-  integrity sha512-ab0P244P2N7+eTDKCyW20XFh97/xkXTRtxVSPOYmrZKLZlz+giBL+2e4CTpYhQROoLSx9jgWgGB9w3Btolt+sA==
+"@aklesky/ts-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.8.0.tgz#1bdc695da102ef5391c60950144d5a2d37f688e2"
+  integrity sha512-BS9IbUR8wgKSGkxBIVwd9oHqB8zjSXJFRz4jOxNM/jIGeZMvnR4MfCwGReUNtJeF/3yW8OhwyGwk7EL01bWivw==
   dependencies:
     "@types/node" "20.7.1"
 
-"@aklesky/utilities@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.7.14.tgz#b3db586ae5fe43464c68bcc7d97db2019df8c9c1"
-  integrity sha512-jJgn2mOIBdDqjDtPKiTptBpyBjQ3WyCaZsBLFMmGPRzBuTvwKNPynJf86ahtcEG5X6ydUE+vOgeCNpWUgM38EA==
+"@aklesky/utilities@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.8.0.tgz#206ad43337161b0cac263c4352e01778603d56ac"
+  integrity sha512-S6U5uwjfGbrtfAAtLlhMgtz8Fo1fyggp9hgVSQe3NCmhzXDhexFUU97mUUjVNr3YoFt/vvSw+X6qeWkeyWgQ2w==
   dependencies:
     deepmerge-ts "5.1.0"
     http-status-codes "2.3.0"
 
-"@aklesky/vite-config@0.7.14":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.7.14.tgz#d979f9c64831375c3a2bcaf179a31832fe84b984"
-  integrity sha512-EBSHsPUw2aCJEAztxk+jklbzROCvEzSEb/qViwUDcLye7icm1UqIUhB2MSTN5iveM6rVG9lwSmGo3mNt8si9Ww==
+"@aklesky/vite-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.8.0.tgz#9c9805b752db6f15202682db91031fd5c49654ab"
+  integrity sha512-WImVLz8HUhtlqE75N/b6MNNsyIXqb8JDn6SIOEvaXAAKo4pAlIEoJnuDco17ASabQaDXBjeXqmT2yfCIt3mg3g==
   dependencies:
     "@vitejs/plugin-legacy" "5.2.0"
     sass "1.69.5"
