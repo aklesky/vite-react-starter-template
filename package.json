@@ -14,7 +14,7 @@
     "@aklesky/eslint-config": "0.8.0",
     "@aklesky/jest-config": "0.8.0",
     "@aklesky/postcss-config": "0.8.0",
-    "@aklesky/prettier-config": "0.8.0",
+    "@aklesky/prettier-config": "0.9.0",
     "@aklesky/tailwind-config": "0.8.0",
     "@aklesky/ts-config": "0.8.0",
     "@aklesky/vite-config": "0.8.0",
