@@ -65,10 +65,10 @@
     react "18.2.0"
     react-dom "18.2.0"
 
-"@aklesky/tailwind-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.8.0.tgz#e06a4a774d90bdb5643b780ea7029a831e54dcf2"
-  integrity sha512-F/507fhyn1Gob+vNt+3QtFxCd82odZxiaEdCMXNbIWPqg56keARLLVA+xS3JEKNmpzRc9gVFOM0G30jfHV/v6A==
+"@aklesky/tailwind-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.9.0.tgz#5ea9bbd18ce60e1f8e0118a68b9543613e304ec4"
+  integrity sha512-LEF6YpljEzmOhy5iEMt5OHhSvgqUKI+sur+9qJxdyx0Wv222YjURgAW+NFE+PO6YbHz/pqbUdM3ynYoWnRBnkw==
   dependencies:
     "@tailwindcss/aspect-ratio" "0.4.2"
     "@tailwindcss/forms" "0.5.7"
