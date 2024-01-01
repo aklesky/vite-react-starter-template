@@ -76,10 +76,10 @@
     "@tailwindcss/typography" "0.5.10"
     tailwindcss "3.3.6"
 
-"@aklesky/ts-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.8.0.tgz#1bdc695da102ef5391c60950144d5a2d37f688e2"
-  integrity sha512-BS9IbUR8wgKSGkxBIVwd9oHqB8zjSXJFRz4jOxNM/jIGeZMvnR4MfCwGReUNtJeF/3yW8OhwyGwk7EL01bWivw==
+"@aklesky/ts-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.9.0.tgz#f7605f1067eb8aea7bbaaec10335a307d67af46c"
+  integrity sha512-HBKde5kgejYjhgph286UWxZhPuTLpFN2M8d0AtJBcctik1aMC1+pe9zgo/9qOXl+NqjvT985vuiqD6hJJ7hFtg==
   dependencies:
     "@types/node" "20.7.1"
 
