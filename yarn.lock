@@ -33,6 +33,14 @@
     "@types/jest" "29.5.11"
     jest "29.7.0"
 
+"@aklesky/jest-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/jest-config/-/jest-config-0.9.0.tgz#e57f4b91e7ee3ae395176d5d8dc1e9fe059f9458"
+  integrity sha512-zDEYVT8Dfva8j/UB6kPAlGGb/3YqkXApccYJqr/I/G4YbJ+En+SKPWa3ZcqGt+RbVXKAj4UN0UwjuCCo37beAA==
+  dependencies:
+    "@swc/jest" "0.2.29"
+    jest "29.7.0"
+
 "@aklesky/postcss-config@0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@aklesky/postcss-config/-/postcss-config-0.8.0.tgz#8a8154f5528f84a5cb7ec10cd1c855073b6faee7"
@@ -52,15 +60,13 @@
     "@types/prettier" "2.7.3"
     prettier "3.1.1"
 
-"@aklesky/react-presets@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.8.0.tgz#57d83074fa9d02fedcf89f61e032bba21ee3d7cb"
-  integrity sha512-GPO/qbb2sICP95hns/T9OuzuRhmat5qoFO2aLpW9UXy7REoVaXF2Fh+65N5sP/TnmQXF4jRK2pWYqz5Jq/RsYw==
+"@aklesky/react-presets@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.9.0.tgz#a17386e588b4c6fc89e7c0f7f81befeae140b6d2"
+  integrity sha512-Lvuw6lWVDVo815K7rU+rkQEONoZhdVnnf2r7beBExqXnpwumfMfTdREfHo3AzJjla2msNWP/B2zpd2ZgYU/mqg==
   dependencies:
-    "@aklesky/jest-config" "0.8.0"
-    "@aklesky/utilities" "0.8.0"
-    "@types/react" "18.2.43"
-    "@types/react-dom" "18.2.17"
+    "@aklesky/jest-config" "0.9.0"
+    "@aklesky/utilities" "0.9.0"
     "@vitejs/plugin-react-swc" "3.5.0"
     react "18.2.0"
     react-dom "18.2.0"
@@ -83,10 +89,10 @@
   dependencies:
     "@types/node" "20.7.1"
 
-"@aklesky/utilities@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.8.0.tgz#206ad43337161b0cac263c4352e01778603d56ac"
-  integrity sha512-S6U5uwjfGbrtfAAtLlhMgtz8Fo1fyggp9hgVSQe3NCmhzXDhexFUU97mUUjVNr3YoFt/vvSw+X6qeWkeyWgQ2w==
+"@aklesky/utilities@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.9.0.tgz#f2e472c33fa3a07bcc27a3fef61051d916bcd133"
+  integrity sha512-MRLC3HSBuvaO3avS/QKICcP6nJdS4IoMxfna5QWIP1N5xbUbfwZ5Z6x9223JdssZXqONyMKOGluWRE8CxJ4vKA==
   dependencies:
     deepmerge-ts "5.1.0"
     http-status-codes "2.3.0"
@@ -1848,41 +1854,6 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.3.tgz#3e51a17e291d01d17d3fc61422015a933af7a08f"
   integrity sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==
 
-"@types/prop-types@*":
-  version "15.7.11"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.11.tgz#2596fb352ee96a1379c657734d4b913a613ad563"
-  integrity sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==
-
-"@types/react-dom@18.2.17":
-  version "18.2.17"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.17.tgz#375c55fab4ae671bd98448dcfa153268d01d6f64"
-  integrity sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*":
-  version "18.2.45"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.45.tgz#253f4fac288e7e751ab3dc542000fb687422c15c"
-  integrity sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@18.2.43":
-  version "18.2.43"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.43.tgz#c58e5abe241e6f71f60ce30e2a9aceb9d3a2a374"
-  integrity sha512-nvOV01ZdBdd/KW6FahSbcNplt2jCJfyWdTos61RYHV+FVv5L/g9AOX1bmbVcWcLFL8+KHQfh1zVIQrud6ihyQA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/scheduler@*":
-  version "0.16.8"
-  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.8.tgz#ce5ace04cfeabe7ef87c0091e50752e36707deff"
-  integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
-
 "@types/semver@^7.3.12", "@types/semver@^7.5.0":
   version "7.5.6"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.6.tgz#c65b2bfce1bec346582c07724e3f8c1017a20339"
@@ -2692,11 +2663,6 @@ csso@5.0.5:
   integrity sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==
   dependencies:
     css-tree "~2.2.0"
-
-csstype@^3.0.2:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
-  integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"

@@ -21,6 +21,6 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "@aklesky/react-presets": "0.8.0"
+    "@aklesky/react-presets": "0.9.0"
   }
 }
