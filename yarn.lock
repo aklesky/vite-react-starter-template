@@ -91,10 +91,10 @@
     deepmerge-ts "5.1.0"
     http-status-codes "2.3.0"
 
-"@aklesky/vite-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.8.0.tgz#9c9805b752db6f15202682db91031fd5c49654ab"
-  integrity sha512-WImVLz8HUhtlqE75N/b6MNNsyIXqb8JDn6SIOEvaXAAKo4pAlIEoJnuDco17ASabQaDXBjeXqmT2yfCIt3mg3g==
+"@aklesky/vite-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.9.0.tgz#683d051dab93778f984c309ecc5d9e43dac8d375"
+  integrity sha512-jr2m7jaAS+YdLPws9lfph3eKoJvO/7QWeY7DZFr9yQCdSdbt974/6mghcJ1Pt+/XSt2R7zFG2yNN7h7z2gLajQ==
   dependencies:
     "@vitejs/plugin-legacy" "5.2.0"
     sass "1.69.5"
