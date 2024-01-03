@@ -7,12 +7,12 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@aklesky/eslint-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/eslint-config/-/eslint-config-0.8.0.tgz#f18fcb30429d72721edbab52db12adbabc876f31"
-  integrity sha512-OaDbtDm8gEBS4cqqsc2Cf3ySG9JU4w++IQjjofqN7qYApoiIxOUKNNyJSo4pMwHTy3+nIXaUoOfdSqAwFnN3ug==
+"@aklesky/eslint-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/eslint-config/-/eslint-config-0.9.0.tgz#4a8f9205911c44498766866528dee41f312b730f"
+  integrity sha512-/UENTjmWbKd9lU4+rpduWELh4w/RSArcFdUG2Ijk+YC6VvBB99RbqVXmGSp2Q/WffyeBWXJ0RsmXPLUpbkQtOA==
   dependencies:
-    "@aklesky/prettier-config" "0.8.0"
+    "@aklesky/prettier-config" "0.9.0"
     "@types/eslint" "8.44.9"
     "@typescript-eslint/eslint-plugin" "6.14.0"
     "@typescript-eslint/parser" "6.14.0"
@@ -24,19 +24,18 @@
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-react-refresh "0.4.5"
 
-"@aklesky/jest-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/jest-config/-/jest-config-0.8.0.tgz#ba87ac1c6a3c7028927378c364de8cff86119d4e"
-  integrity sha512-gbrNjoyXWW2TowCyKjWQigrRajX1Uli91RevAplQFK3dAqjhPqb8h4Yo2OMKEbRicAkPWglE6bZvY8kEE2LH6g==
+"@aklesky/jest-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/jest-config/-/jest-config-0.9.0.tgz#e57f4b91e7ee3ae395176d5d8dc1e9fe059f9458"
+  integrity sha512-zDEYVT8Dfva8j/UB6kPAlGGb/3YqkXApccYJqr/I/G4YbJ+En+SKPWa3ZcqGt+RbVXKAj4UN0UwjuCCo37beAA==
   dependencies:
     "@swc/jest" "0.2.29"
-    "@types/jest" "29.5.11"
     jest "29.7.0"
 
-"@aklesky/postcss-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/postcss-config/-/postcss-config-0.8.0.tgz#8a8154f5528f84a5cb7ec10cd1c855073b6faee7"
-  integrity sha512-zG2qO0xsGbod832NlOagxbu3ouq7M2Al6hycKtISwi8jHfTChdvtxTXaqMjBiJs4qvABgiWhpZuoc/KHZY2DQQ==
+"@aklesky/postcss-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/postcss-config/-/postcss-config-0.9.0.tgz#065e9085c5eb14c74c3f509b581a1cd5692427b1"
+  integrity sha512-W3QFXYKa3yUJGxghMHE6ROKRGS/AD1++9zMoWVNdf5y7iirYRqOYuwo00/kvmgX5zMwNw29elkl9c0pm2nw00g==
   dependencies:
     autoprefixer "10.4.16"
     cssnano "6.0.2"
@@ -44,31 +43,28 @@
     postcss-load-config "5.0.2"
     postcss-nesting "12.0.1"
 
-"@aklesky/prettier-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/prettier-config/-/prettier-config-0.8.0.tgz#ca3b88da815bf5375691a71d74dd35f23a39fb7e"
-  integrity sha512-vME4bkjfP/0t1ZfI4d42TSChRm2PtGTrwB7OJ0MNBI8/9TGD3hkmM3MVZxjdIaM1JQyVT807jiBiEzELTmwwwA==
+"@aklesky/prettier-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/prettier-config/-/prettier-config-0.9.0.tgz#1bad90018239375fea5827eeb97227514dccf876"
+  integrity sha512-pwf1vvruWPxhPYQ/yq68O2R64UHHj1HdHyLDxLzevbGGEFax8J3yLmBzvmz8tsuvG8vY+M9oCAYMXEQKaJA2Yw==
   dependencies:
-    "@types/prettier" "2.7.3"
     prettier "3.1.1"
 
-"@aklesky/react-presets@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.8.0.tgz#57d83074fa9d02fedcf89f61e032bba21ee3d7cb"
-  integrity sha512-GPO/qbb2sICP95hns/T9OuzuRhmat5qoFO2aLpW9UXy7REoVaXF2Fh+65N5sP/TnmQXF4jRK2pWYqz5Jq/RsYw==
+"@aklesky/react-presets@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/react-presets/-/react-presets-0.9.0.tgz#a17386e588b4c6fc89e7c0f7f81befeae140b6d2"
+  integrity sha512-Lvuw6lWVDVo815K7rU+rkQEONoZhdVnnf2r7beBExqXnpwumfMfTdREfHo3AzJjla2msNWP/B2zpd2ZgYU/mqg==
   dependencies:
-    "@aklesky/jest-config" "0.8.0"
-    "@aklesky/utilities" "0.8.0"
-    "@types/react" "18.2.43"
-    "@types/react-dom" "18.2.17"
+    "@aklesky/jest-config" "0.9.0"
+    "@aklesky/utilities" "0.9.0"
     "@vitejs/plugin-react-swc" "3.5.0"
     react "18.2.0"
     react-dom "18.2.0"
 
-"@aklesky/tailwind-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.8.0.tgz#e06a4a774d90bdb5643b780ea7029a831e54dcf2"
-  integrity sha512-F/507fhyn1Gob+vNt+3QtFxCd82odZxiaEdCMXNbIWPqg56keARLLVA+xS3JEKNmpzRc9gVFOM0G30jfHV/v6A==
+"@aklesky/tailwind-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/tailwind-config/-/tailwind-config-0.9.0.tgz#5ea9bbd18ce60e1f8e0118a68b9543613e304ec4"
+  integrity sha512-LEF6YpljEzmOhy5iEMt5OHhSvgqUKI+sur+9qJxdyx0Wv222YjURgAW+NFE+PO6YbHz/pqbUdM3ynYoWnRBnkw==
   dependencies:
     "@tailwindcss/aspect-ratio" "0.4.2"
     "@tailwindcss/forms" "0.5.7"
@@ -76,25 +72,25 @@
     "@tailwindcss/typography" "0.5.10"
     tailwindcss "3.3.6"
 
-"@aklesky/ts-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.8.0.tgz#1bdc695da102ef5391c60950144d5a2d37f688e2"
-  integrity sha512-BS9IbUR8wgKSGkxBIVwd9oHqB8zjSXJFRz4jOxNM/jIGeZMvnR4MfCwGReUNtJeF/3yW8OhwyGwk7EL01bWivw==
+"@aklesky/ts-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/ts-config/-/ts-config-0.9.0.tgz#f7605f1067eb8aea7bbaaec10335a307d67af46c"
+  integrity sha512-HBKde5kgejYjhgph286UWxZhPuTLpFN2M8d0AtJBcctik1aMC1+pe9zgo/9qOXl+NqjvT985vuiqD6hJJ7hFtg==
   dependencies:
     "@types/node" "20.7.1"
 
-"@aklesky/utilities@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.8.0.tgz#206ad43337161b0cac263c4352e01778603d56ac"
-  integrity sha512-S6U5uwjfGbrtfAAtLlhMgtz8Fo1fyggp9hgVSQe3NCmhzXDhexFUU97mUUjVNr3YoFt/vvSw+X6qeWkeyWgQ2w==
+"@aklesky/utilities@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/utilities/-/utilities-0.9.0.tgz#f2e472c33fa3a07bcc27a3fef61051d916bcd133"
+  integrity sha512-MRLC3HSBuvaO3avS/QKICcP6nJdS4IoMxfna5QWIP1N5xbUbfwZ5Z6x9223JdssZXqONyMKOGluWRE8CxJ4vKA==
   dependencies:
     deepmerge-ts "5.1.0"
     http-status-codes "2.3.0"
 
-"@aklesky/vite-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.8.0.tgz#9c9805b752db6f15202682db91031fd5c49654ab"
-  integrity sha512-WImVLz8HUhtlqE75N/b6MNNsyIXqb8JDn6SIOEvaXAAKo4pAlIEoJnuDco17ASabQaDXBjeXqmT2yfCIt3mg3g==
+"@aklesky/vite-config@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@aklesky/vite-config/-/vite-config-0.9.0.tgz#683d051dab93778f984c309ecc5d9e43dac8d375"
+  integrity sha512-jr2m7jaAS+YdLPws9lfph3eKoJvO/7QWeY7DZFr9yQCdSdbt974/6mghcJ1Pt+/XSt2R7zFG2yNN7h7z2gLajQ==
   dependencies:
     "@vitejs/plugin-legacy" "5.2.0"
     sass "1.69.5"
@@ -1818,14 +1814,6 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@29.5.11":
-  version "29.5.11"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.11.tgz#0c13aa0da7d0929f078ab080ae5d4ced80fa2f2c"
-  integrity sha512-S2mHmYIVe13vrm6q4kN6fLYYAka15ALQki/vgDC3mIukEOx8WJlv0kQPM+d4w8Gp6u0uSdKND04IlTXBv0rwnQ==
-  dependencies:
-    expect "^29.0.0"
-    pretty-format "^29.0.0"
-
 "@types/json-schema@*", "@types/json-schema@^7.0.12", "@types/json-schema@^7.0.9":
   version "7.0.15"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
@@ -1843,20 +1831,15 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.7.1.tgz#06d732ead0bd5ad978ef0ea9cbdeb24dc8717514"
   integrity sha512-LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==
 
-"@types/prettier@2.7.3":
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.3.tgz#3e51a17e291d01d17d3fc61422015a933af7a08f"
-  integrity sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==
-
 "@types/prop-types@*":
   version "15.7.11"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.11.tgz#2596fb352ee96a1379c657734d4b913a613ad563"
   integrity sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==
 
-"@types/react-dom@18.2.17":
-  version "18.2.17"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.17.tgz#375c55fab4ae671bd98448dcfa153268d01d6f64"
-  integrity sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==
+"@types/react-dom@18.2.18":
+  version "18.2.18"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.18.tgz#16946e6cd43971256d874bc3d0a72074bb8571dd"
+  integrity sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==
   dependencies:
     "@types/react" "*"
 
@@ -1869,10 +1852,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.43":
-  version "18.2.43"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.43.tgz#c58e5abe241e6f71f60ce30e2a9aceb9d3a2a374"
-  integrity sha512-nvOV01ZdBdd/KW6FahSbcNplt2jCJfyWdTos61RYHV+FVv5L/g9AOX1bmbVcWcLFL8+KHQfh1zVIQrud6ihyQA==
+"@types/react@18.2.46":
+  version "18.2.46"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.46.tgz#f04d6c528f8f136ea66333bc66abcae46e2680df"
+  integrity sha512-nNCvVBcZlvX4NU1nRRNV/mFl1nNRuTuslAJglQsq+8ldXe5Xv0Wd2f7WTE3jOxhLH2BFfiZGC6GCp+kHQbgG+w==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3198,7 +3181,7 @@ exit@^0.1.2:
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
   integrity sha512-Zk/eNKV2zbjpKzrsQ+n1G6poVbErQxJ0LBOJXaKZ1EViLzH+hrLu9cdXI4zw9dBQJslwBEpbQ2P1oS7nDxs6jQ==
 
-expect@^29.0.0, expect@^29.7.0:
+expect@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-29.7.0.tgz#578874590dcb3214514084c08115d8aee61e11bc"
   integrity sha512-2Zks0hf1VLFYI1kbh0I5jP3KHHyCHpkfyHBzsSXRFgl/Bg9mWYfMW8oD+PdMPlEwy5HNsR9JutYy6pMeOh61nw==
@@ -5056,7 +5039,7 @@ prettier@3.1.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
   integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
 
-pretty-format@^29.0.0, pretty-format@^29.7.0:
+pretty-format@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.7.0.tgz#ca42c758310f365bfa71a0bda0a807160b776812"
   integrity sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==
